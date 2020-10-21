@@ -48,7 +48,6 @@ exports.view = (req, res) => {
 exports.update = (req, res) => {
   BlogPost.findById(req.params.id, (err, blogPost) => {
     if (err) res.send(err);
-    // blogPost.id = req.body.id;
     blogPost.title = req.body.title;
     blogPost.content = req.body.content;
     //save and check errors
