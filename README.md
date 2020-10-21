@@ -28,4 +28,4 @@ GET api/post → Retrieves all the posts data<br />
 POST api/post → Add new post data <br />
 GET api/posts{id} → Retrieve the single post data<br />
 PUT api/posts/{id} → Update the post data<br />
-DELETE api/post → Delete the post data<br />
+DELETE api/posts/{id} → Delete the post data<br />
